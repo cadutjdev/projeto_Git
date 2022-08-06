@@ -19,11 +19,12 @@ if (dataEvento < dataAtual) {
 
 for (let contador = 0; contador < participantes.length; contador++) {
 
-    console.log(particiapntes.lentgh)
+    console.log(participantes.length)
 
     if (participantes.length < 5) {
         console.log("permitir cadastro")
     }else{
-        console.log("cadastrao não será permitido, excedeu o limite")
+        console.log("cadastro não será permitido, excedeu o limite")
+        console.log(`Os participantes são " ${participantes}`)
     }
 }
