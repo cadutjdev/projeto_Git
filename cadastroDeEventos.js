@@ -1,5 +1,7 @@
-let = dataEvento
-let = dataAtual
+//considerando data só dia entre 1 e 31
+let = dataEvento = 10
+let = dataAtual = 24
+let = idade = 21
 let = participantes = ["x", "y", "w", "z"]
 
 
